@@ -1,0 +1,31 @@
+{
+  "name": "noflo-gibber",
+  "description": "Components to Gibber lib.",
+  "author": "Vilson Vieira <vilson@void.cc>",
+  "repo": "vilson/noflo-gibber",
+  "version": "0.1.0",
+  "keywords": [],
+  "dependencies": {
+    "noflo/noflo": "*"
+  },
+  "remotes": [
+    "https://raw.githubusercontent.com"
+  ],
+  "scripts": [
+    "index.js",
+    "vendor/gibber.lib.min.js",
+    "components/FM.coffee",
+    "components/MakeSeq.coffee",
+    "components/MakeNote.coffee"
+  ],
+  "json": [
+    "component.json"
+  ],
+  "noflo": {
+    "components": {
+      "FM": "components/FM.coffee",
+      "MakeNote": "components/MakeNote.coffee",
+      "MakeSeq": "components/MakeSeq.coffee"
+    }
+  }
+}
